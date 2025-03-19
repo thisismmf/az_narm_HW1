@@ -232,67 +232,67 @@
       </article>
     </div>
   </div>
+  <!-- Gallery Alternative 2: Bootstrap Carousel -->
+<div id="galleryCarousel" class="carousel slide custom-padding-top" data-bs-ride="carousel" role="region" aria-label="Image Gallery Carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
   
-  <!-- Gallery -->
-  <div id="gallery" class="custom-padding-top">
-    <div class="grid-container">
-      <div class="slide-show">
-        <button class="btn direction-button left-direction-button" onclick="showNextSlide(-1)">
-          ❮
-        </button>
-        <span class="dot" onclick="showSlide(1)"></span>
-        <span class="dot" onclick="showSlide(2)"></span>
-        <span class="dot" onclick="showSlide(3)"></span>
-        <span class="dot" onclick="showSlide(4)"></span>
-        <span class="dot" onclick="showSlide(5)"></span>
-        <button class="btn direction-button right-direction-button" onclick="showNextSlide(1)">
-          ❯
-        </button>
-      </div>
-
-      <div class="grid-slide-show"></div>
-
-      <div class="grid-item item1">
-        <img src="./statics/images/bird.jpg" />
-        <div class="text">
-          <h2>متن اول</h2>
-          توضیح کوتاه درباره‌ی متن اول
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./statics/images/bird.jpg" class="d-block w-100" alt="Bird">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>متن اول</h5>
+          <p>توضیح کوتاه درباره‌ی متن اول</p>
         </div>
       </div>
-
-      <div class="grid-item item2">
-        <img src="./statics/images/blue.jpg" />
-        <div class="text">
-          <h2>متن دوم</h2>
-          توضیح کوتاه درباره‌ی متن دوم
+      <div class="carousel-item">
+        <img src="./statics/images/blue.jpg" class="d-block w-100" alt="Blue Image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>متن دوم</h5>
+          <p>توضیح کوتاه درباره‌ی متن دوم</p>
         </div>
       </div>
-
-      <div class="grid-item item3">
-        <img src="./statics/images/dog.jpg" />
-        <div class="text">
-          <h2>متن سوم</h2>
-          توضیح کوتاه درباره‌ی متن سوم
+      <div class="carousel-item">
+        <img src="./statics/images/dog.jpg" class="d-block w-100" alt="Dog">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>متن سوم</h5>
+          <p>توضیح کوتاه درباره‌ی متن سوم</p>
         </div>
       </div>
-
-      <div class="grid-item item4">
-        <img src="./statics/images/colorful.jpg" />
-        <div class="text">
-          <h2>متن چهارم</h2>
-          توضیح کوتاه درباره‌ی متن چهارم
+      <div class="carousel-item">
+        <img src="./statics/images/colorful.jpg" class="d-block w-100" alt="Colorful">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>متن چهارم</h5>
+          <p>توضیح کوتاه درباره‌ی متن چهارم</p>
         </div>
       </div>
-
-      <div class="grid-item item5">
-        <img src="./statics/images/piano.jpeg" />
-        <div class="text">
-          <h2>متن پنجم</h2>
-          توضیح کوتاه درباره‌ی متن پنجم
+      <div class="carousel-item">
+        <img src="./statics/images/piano.jpeg" class="d-block w-100" alt="Piano">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>متن پنجم</h5>
+          <p>توضیح کوتاه درباره‌ی متن پنجم</p>
         </div>
       </div>
     </div>
+  
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev" aria-label="Previous Slide">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">قبلی</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next" aria-label="Next Slide">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">بعدی</span>
+    </button>
   </div>
+  
   <!-- activities -->
   <div id="activities" class="container custom-padding-top my-4">
     <div id="activitiesDesktop">
