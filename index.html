@@ -234,65 +234,66 @@
   </div>
   
   <!-- Gallery -->
-  <div id="gallery" class="custom-padding-top">
+<div id="gallery" class="custom-padding-top" role="region" aria-label="Image Gallery">
     <div class="grid-container">
-      <div class="slide-show">
-        <button class="btn direction-button left-direction-button" onclick="showNextSlide(-1)">
-          ❮
+      <div class="slide-show" aria-live="polite">
+        <button class="btn direction-button left-direction-button" onclick="showNextSlide(-1)" aria-label="Previous Slide">
+          &#10094;
         </button>
-        <span class="dot" onclick="showSlide(1)"></span>
-        <span class="dot" onclick="showSlide(2)"></span>
-        <span class="dot" onclick="showSlide(3)"></span>
-        <span class="dot" onclick="showSlide(4)"></span>
-        <span class="dot" onclick="showSlide(5)"></span>
-        <button class="btn direction-button right-direction-button" onclick="showNextSlide(1)">
-          ❯
+        <span class="dot" onclick="showSlide(1)" aria-label="Slide 1"></span>
+        <span class="dot" onclick="showSlide(2)" aria-label="Slide 2"></span>
+        <span class="dot" onclick="showSlide(3)" aria-label="Slide 3"></span>
+        <span class="dot" onclick="showSlide(4)" aria-label="Slide 4"></span>
+        <span class="dot" onclick="showSlide(5)" aria-label="Slide 5"></span>
+        <button class="btn direction-button right-direction-button" onclick="showNextSlide(1)" aria-label="Next Slide">
+          &#10095;
         </button>
       </div>
-
+  
       <div class="grid-slide-show"></div>
-
+  
       <div class="grid-item item1">
-        <img src="./statics/images/bird.jpg" />
+        <img src="./statics/images/bird.jpg" alt="Bird">
         <div class="text">
           <h2>متن اول</h2>
-          توضیح کوتاه درباره‌ی متن اول
+          <p>توضیح کوتاه درباره‌ی متن اول</p>
         </div>
       </div>
-
+  
       <div class="grid-item item2">
-        <img src="./statics/images/blue.jpg" />
+        <img src="./statics/images/blue.jpg" alt="Blue Image">
         <div class="text">
           <h2>متن دوم</h2>
-          توضیح کوتاه درباره‌ی متن دوم
+          <p>توضیح کوتاه درباره‌ی متن دوم</p>
         </div>
       </div>
-
+  
       <div class="grid-item item3">
-        <img src="./statics/images/dog.jpg" />
+        <img src="./statics/images/dog.jpg" alt="Dog">
         <div class="text">
           <h2>متن سوم</h2>
-          توضیح کوتاه درباره‌ی متن سوم
+          <p>توضیح کوتاه درباره‌ی متن سوم</p>
         </div>
       </div>
-
+  
       <div class="grid-item item4">
-        <img src="./statics/images/colorful.jpg" />
+        <img src="./statics/images/colorful.jpg" alt="Colorful">
         <div class="text">
           <h2>متن چهارم</h2>
-          توضیح کوتاه درباره‌ی متن چهارم
+          <p>توضیح کوتاه درباره‌ی متن چهارم</p>
         </div>
       </div>
-
+  
       <div class="grid-item item5">
-        <img src="./statics/images/piano.jpeg" />
+        <img src="./statics/images/piano.jpeg" alt="Piano">
         <div class="text">
           <h2>متن پنجم</h2>
-          توضیح کوتاه درباره‌ی متن پنجم
+          <p>توضیح کوتاه درباره‌ی متن پنجم</p>
         </div>
       </div>
     </div>
   </div>
+  
   <!-- activities -->
   <div id="activities" class="container custom-padding-top my-4">
     <div id="activitiesDesktop">
