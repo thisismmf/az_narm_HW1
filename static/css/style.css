@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .custom-padding-top {
+    padding-top: calc(1.4vw + 35px);
+  }
+  
+  .persian-text {
+    font-family: bnazanin, serif !important;
+    direction: rtl;
+    text-align: justify;
+  }
+  
+  .persian-font {
+    font-family: bnazanin, serif !important;
+    direction: rtl;
+  }
