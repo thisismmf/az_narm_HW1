@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    min-height: 43vmax;
+    position: relative;
+    background: linear-gradient(to right, #d94b86, #485de7a1),
+      url("../images/dog.jpg");
+  
+    background-size: 100% 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-text {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    color: black;
+    font-size: 1.5vw;
+    font-family: bnazanin, serif !important;
+  }
+  .header-text h1 {
+    font-size: 3vw;
+  }
+  
+  .change-color-button {
+    margin-top: 2%;
+    border-radius: 20px 20px;
+    font-size: 1.1vw;
+  }
+  
+  .header .curve {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 10%;
+    transform: rotate(180deg);
+  }
+  .curve-path {
+    fill: #ffffff;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header-text {
+      width: 100%;
+      text-align: center;
+      right: 0;
+    }
+  }

@@ -1,0 +1,84 @@
+.text-bold {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .text-bold--small {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .vertical-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gray-background {
+    background: rgba(49, 49, 49, 255);
+  }
+  
+  .contact-item {
+    transition: 0.3s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .contact-item:hover {
+    color: #f3c900;
+    transform-origin: right;
+    transform: scale(1.15);
+  }
+  
+  svg.contact-item:hover {
+    color: #f3c900;
+    transform-origin: center;
+    transform: scale(1.15);
+  }
+  
+  .be-in-touch-style {
+    font-size: 40px;
+    color: #f3c900;
+  }
+  
+  .be-in-touch-style--small {
+    font-size: 26px;
+    color: #f3c900;
+  }
+  
+  .footer-background {
+    background-color: #303030;
+  }
+  
+  .remove-line-height {
+    line-height: 0;
+  }
+  
+  .normal-line-height {
+    line-height: 3.3rem;
+  }
+  
+  .remove-padding {
+    padding: 0;
+  }
+  
+  .overlap-bottom {
+    margin-bottom: -2px;
+  }
+  
+  .overlap-top {
+    margin-top: -1px;
+  }
+  
+  #contactUsPhone {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contactUsPhone {
+      display: block;
+    }
+    #contactUsDesktop {
+      display: none;
+    }
+  }
