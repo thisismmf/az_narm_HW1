@@ -38,35 +38,31 @@
   <title>WEB</title>
 </head>
 <body>
- <!-- navbar -->
- <nav class="navbar-custom fixed-top">
-    <a href="#header">
-      <img class="navbar-image" src="./statics/logo/red_logo_200x200.png" alt="webDev logo" />
+ <!-- Improved Navbar -->
+<nav class="navbar-custom fixed-top" role="navigation" aria-label="Main Navigation">
+    <a href="#header" class="navbar-brand">
+      <img class="navbar-image" src="./statics/logo/red_logo_200x200.png" alt="WebDev Logo" />
     </a>
-
+  
     <div class="form-check form-switch">
-      <label class="form-check-label darkmode-button" for="darkModeCheckbox">Dark Mode</label>
       <input class="form-check-input" type="checkbox" id="darkModeCheckbox" onclick="toggleDarkMode()" />
+      <label class="form-check-label darkmode-button" for="darkModeCheckbox">Dark Mode</label>
     </div>
-
+  
     <div class="navbar-link-container">
       <a class="nav-link" href="#cards">کارت‌ها</a>
-
       <a class="nav-link" href="#gallery">تصاویر</a>
-
       <a class="nav-link" href="#activities">فعالیت‌ها</a>
-
       <a class="nav-link" href="#contactUs">تماس با ما</a>
-
       <a class="nav-link" href="#comments">نظرات</a>
-
       <a class="nav-link" href="#news">اخبار</a>
     </div>
-
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-      aria-controls="offcanvasNavbar">
-      <img class="navbar-toggler-icon" src="./statics/icons/navbar-toggler.png" />
+      aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <img class="navbar-toggler-icon" src="./statics/icons/navbar-toggler.png" alt="Toggle navigation" />
     </button>
+  
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -80,25 +76,22 @@
           <li class="nav-item">
             <a class="nav-link" href="#gallery">تصاویر</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#activities">فعالیت‌ها</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contactUs">تماس با ما</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#comments">نظرات</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#news">اخبار</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </nav>  
   <!-- header -->
   <section class="header custom-padding-top" id="header">
     <svg class="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
